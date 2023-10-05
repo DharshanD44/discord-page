@@ -85,31 +85,56 @@ text-align: right;
 	height: 450px;
 	width: 100%;
 }
+.image11
+{
+	font-size: 50px; 
+	line-height: 40px;
+}
+.image111
+{
+	font-size: 20px; margin-top:0px;line-height: 30px;
+	font-family: inherit;
+}
 .image1 p{
 	
 	position: relative;
-	width:385px;
+	width:470px;
 	float:right;
 	text-align: justify;
 	margin-right: 100px;
-
-
-
+	font-family: Arial, Helvetica, sans-serif;
 }
 .image2{
 	background: whitesmoke;
 	height: 450px;
 	width: 100%;
 }
+.image22
+{
+	font-size: 50px; line-height: 40px;
+}
+.image222{
+	font-size: 20px; margin-top:-10px;line-height: 30px;
+}
 .image2 p{
 	
 	position: relative;
-	width:385px;
+	width:470px;
 	float:left;
 	text-align: justify;
 	margin-left: 80px;
-	
-
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.image44
+{
+	font-size: 30px;
+	text-align: center;
+}
+.login1
+{
+	align=center;
+	margin-top: 50px;
+	margin-left:50px;
 }
 .footer1{
 	background: black;
@@ -213,4 +238,76 @@ padding-right: 15px;
   .topleftsideimage{
   	display: none;
   }
+}
+@media only screen and (max-width: 600px) {
+	.image11 p{
+		font-size: 20px; 
+		float: left;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.image111 p{
+		font-size: 20px; 
+		float: left;
+		margin-top: 30px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.image1 img 
+	{
+		width: 400px;
+	}
+
+	.image22 p{
+		font-size: 20px; 
+		float: right;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.image222 p{
+		font-size: 20px; 
+		float: right;
+		margin-top: 30px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.image2 img 
+	{
+		width: 400px;
+	}
+	.image4 img 
+	{
+		width: 400px;
+	}
+	.image4 h1
+	{
+		font-size: 30px;
+	}
+	.login1 ul li
+	{
+		border-radius: 15px;
+  		word-spacing: 0px;
+  		letter-spacing: 0px;
+  		padding: 10px;
+  		font-size: 13px;
+		margin-top: -230px;
+		margin-bottom: 400px;
+	}
+	.footer1{
+	background: black;
+	height: 600px;
+	margin-top: -450px;
+	}
+
+	#footer{
+	display:flex;
+	justify-content: space-around;
+	}
+	.hr1
+	{
+		display: none;
+	}
+	.list4{
+		display: none;
+	}
+	.logi
+	{
+		margin-top: 290px;
+	}
 }
