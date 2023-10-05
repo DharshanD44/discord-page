@@ -1,3 +1,7 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
 .top{
 	background: #285FFE;
 	height: 618px;
@@ -93,7 +97,7 @@ text-align: right;
 .image111
 {
 	font-size: 20px; margin-top:0px;line-height: 30px;
-	font-family: inherit;
+	
 }
 .image1 p{
 	
